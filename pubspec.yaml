@@ -1,0 +1,71 @@
+name: phone_auth
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  freezed: ^2.4.1
+  freezed_annotation: ^2.4.1
+  auto_route: ^7.7.0
+  flutter_svg: ^2.0.5
+  get_it: ^7.6.7
+  flutter_bloc: ^8.1.2
+  flutter_screenutil: ^5.7.0
+  mask_text_input_formatter: ^2.8.0
+  pinput: ^3.0.1
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  permission_handler: ^11.2.0
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  auto_route_generator: ^7.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SFProDisplay-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SFProDisplay-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/SFProDisplay-Bold.otf
+          weight: 700
+
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SFProText-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SFProText-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SFProText-SemiBold.otf
+          weight: 600
+
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
