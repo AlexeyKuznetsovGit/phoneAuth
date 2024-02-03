@@ -43,7 +43,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   int _currentPage = 0;
   PageController _pageController = PageController();
   Timer _timer = Timer(Duration(), () {});
-  int _secondsRemaining = 10;
+  int _secondsRemaining = 60;
   bool isSuccessful = false;
 
   @override
