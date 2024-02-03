@@ -416,7 +416,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
       if (_secondsRemaining == 0) {
         setState(() {
           timer.cancel();
-          _secondsRemaining = 10;
+          _secondsRemaining = 60;
         });
       } else {
         setState(() {
